@@ -1,0 +1,77 @@
+#game table {
+  border: 3px blue outset;
+  background-color: blue;
+}
+
+#game{
+  display: flex;
+  justify-content: center;
+}
+
+#game td {
+  width: 2cm;
+  height: 2cm;
+  margin: 0px;
+  padding: 0px;
+  border: 2px blue inset;
+  border-radius: 2cm;
+  background-color: white;
+  cursor: pointer;
+}
+
+#game td.player1 {
+  background-color: red;
+}
+#game td.player2 {
+  background-color: yellow;
+}
+
+h1{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  background-color: bisque;
+  color: chocolate;
+}
+
+.footer{
+  background-color: gray;
+  border: 1px solid black;
+  min-height: 30px;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body{
+  height: 400px;
+  padding-top: 20px;
+}
+
+.conteneur{
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 38em;
+}
+
+.gagnant1{
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 579px;
+}
+
+.gagnant2{
+  background-color: yellow;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 579px;
+}
